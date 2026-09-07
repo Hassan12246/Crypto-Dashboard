@@ -2,7 +2,7 @@
 
 A live cryptocurrency dashboard built with React, TypeScript, and Redux Toolkit — track real-time prices, view detailed coin analytics with price history charts, and save your favorite coins.
 
-**🔗 Live Demo:** [Add your Vercel link here after deploying]
+**🔗 Live Demo:** [crypto-dashboard-tawny-one.vercel.app](https://crypto-dashboard-tawny-one.vercel.app)
 
 ---
 
@@ -21,15 +21,15 @@ A live cryptocurrency dashboard built with React, TypeScript, and Redux Toolkit 
 
 ## 🛠️ Tech Stack
 
-| Category | Technology |
-|---|---|
-| Framework | React 18 + Vite |
-| Language | TypeScript |
-| State Management | Redux Toolkit (`createSlice`, `createAsyncThunk`) |
-| Routing | React Router v6 |
-| Charts | Recharts |
-| Icons | Lucide React |
-| Data Source | [CoinGecko API](https://www.coingecko.com/en/api) (free, no key required) |
+| Category         | Technology                                                                |
+| ---------------- | ------------------------------------------------------------------------- |
+| Framework        | React 18 + Vite                                                           |
+| Language         | TypeScript                                                                |
+| State Management | Redux Toolkit (`createSlice`, `createAsyncThunk`)                         |
+| Routing          | React Router v6                                                           |
+| Charts           | Recharts                                                                  |
+| Icons            | Lucide React                                                              |
+| Data Source      | [CoinGecko API](https://www.coingecko.com/en/api) (free, no key required) |
 
 ---
 
@@ -88,7 +88,7 @@ This runs a TypeScript type-check followed by a Vite production build. Output go
 
 ## 📸 Screenshots
 
-*(Add 2-3 screenshots here after deploying — Home page, Coin Detail page, and Favorites page)*
+_(Add 2-3 screenshots here after deploying — Home page, Coin Detail page, and Favorites page)_
 
 ---
 
