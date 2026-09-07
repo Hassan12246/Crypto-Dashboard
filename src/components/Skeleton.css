@@ -1,0 +1,22 @@
+.skeleton {
+  background: linear-gradient(90deg, #e8ecf1 25%, #f2f5f8 50%, #e8ecf1 75%);
+  background-size: 200% 100%;
+  animation: skeleton-pulse 1.4s ease-in-out infinite;
+  border-radius: 6px;
+}
+
+/* Dark mode mein halke grey gradient ki bajaye gehre grey chahiye,
+   warna skeleton dark background par ghayab jaisa dikhega */
+[data-theme='dark'] .skeleton {
+  background: linear-gradient(90deg, #1f2a35 25%, #283440 50%, #1f2a35 75%);
+  background-size: 200% 100%;
+}
+
+@keyframes skeleton-pulse {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

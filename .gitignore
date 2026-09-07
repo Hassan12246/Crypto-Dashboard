@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (agar kabhi API keys add karein)
+.env
+.env.local
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store

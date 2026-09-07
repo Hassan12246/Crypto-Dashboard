@@ -1,0 +1,28 @@
+/* Light mode (default) — ye variables hamesha available hain */
+:root {
+  --color-bg: #f4f6f9;
+  --color-bg-card: #ffffff;
+  --color-text-primary: #20303f;
+  --color-text-secondary: #7c8a99;
+  --color-border: #e6e9ee;
+  --color-accent: #2d6cb5;
+  --color-success: #1f9d55;
+  --color-danger: #d1453b;
+  --color-hover: #f1f3f6;
+}
+
+/* Dark mode — jab <html data-theme="dark"> lagega, ye values
+   automatically upar wale variables ko OVERRIDE kar dengi.
+   Koi component ki CSS badalne ki zaroorat nahi — sirf
+   variables badalte hain, aur poori app khud badal jati hai. */
+[data-theme='dark'] {
+  --color-bg: #0f1720;
+  --color-bg-card: #1a2530;
+  --color-text-primary: #e8edf3;
+  --color-text-secondary: #94a3b3;
+  --color-border: #2a3844;
+  --color-accent: #5b9bd9;
+  --color-success: #3ecf7e;
+  --color-danger: #f0685c;
+  --color-hover: #24313d;
+}

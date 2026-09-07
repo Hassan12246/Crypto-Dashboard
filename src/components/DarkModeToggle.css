@@ -1,0 +1,15 @@
+.theme-toggle {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-primary);
+}
+
+.theme-toggle:hover {
+  background: var(--color-hover);
+}

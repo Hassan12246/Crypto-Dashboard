@@ -1,0 +1,36 @@
+.app-shell {
+  min-height: 100vh;
+  padding: 40px;
+  color: var(--color-text-primary);
+}
+
+.app-nav {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.app-nav__links {
+  display: flex;
+  gap: 20px;
+}
+
+.app-nav__link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.app-nav__link:hover {
+  color: var(--color-accent);
+}
+
+/* Mobile: chota padding taake screen ki jagah zaya na ho */
+@media (max-width: 480px) {
+  .app-shell {
+    padding: 16px;
+  }
+}

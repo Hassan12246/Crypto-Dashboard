@@ -1,0 +1,18 @@
+.favorites-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.favorites-page__title {
+  font-size: 26px;
+  margin: 0 0 20px 0;
+  color: var(--color-text-primary);
+  font-weight: 700;
+}
+
+.favorites-page__empty {
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  text-align: center;
+  padding: 40px 0;
+}

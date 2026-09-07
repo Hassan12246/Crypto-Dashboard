@@ -1,0 +1,13 @@
+.price-chart {
+  background: var(--color-bg-card);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+.price-chart__title {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin: 0 0 12px 0;
+  font-weight: 500;
+}
