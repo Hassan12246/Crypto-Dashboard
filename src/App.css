@@ -1,9 +1,70 @@
 .app-shell {
   min-height: 100vh;
-  padding: 40px;
+  padding: 24px;
   color: var(--color-text-primary);
 }
 
+.app-nav__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.app-nav__user {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.app-nav__logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-bg-card);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+}
+
+.app-nav__logout:hover {
+  color: var(--color-danger);
+  background: var(--color-hover);
+}
+
+@media (max-width: 600px) {
+  .app-nav {
+    align-items: flex-start;
+  }
+
+  .app-nav__links {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .app-nav__right {
+    gap: 8px;
+  }
+
+  .app-nav__user span {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-nav {
+    margin-bottom: 16px;
+  }
+
+  .app-nav__right {
+    flex-shrink: 0;
+  }
+}
 .app-nav {
   max-width: 600px;
   margin: 0 auto 20px auto;
@@ -31,6 +92,6 @@
 /* Mobile: chota padding taake screen ki jagah zaya na ho */
 @media (max-width: 480px) {
   .app-shell {
-    padding: 16px;
+    padding: 12px;
   }
 }
